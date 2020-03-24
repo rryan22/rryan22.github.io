@@ -2652,6 +2652,12 @@
             <selection type="skeleton" state_id="excited"/>
             <selection type="upper_body" state_id="excited"/>
         </action>
+	   <action id="taunt" name="Taunt" loop="Y" totalframe="100" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_taunt"/>
+            <selection type="lower_body" state_id="taunt"/>
+            <selection type="skeleton" state_id="taunt"/>
+            <selection type="upper_body" state_id="taunt"/>
+        </action>
         <action id="twitch" name="Twitch legs" loop="Y" totalframe="80" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="excited"/>
